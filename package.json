@@ -1,0 +1,17 @@
+{
+  "name": "get-win-software",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-progress": "^3.11.2",
+    "regedit": "^5.1.1",
+    "winreg": "^1.2.4"
+  }
+}
