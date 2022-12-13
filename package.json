@@ -1,14 +1,22 @@
 {
   "name": "get-win-software",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node ."
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skrike/get-win-software.git"
+  },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Skrike",
+  "license": "gpl-3.0",
+  "bugs": {
+    "url": "https://github.com/skrike/get-win-software/issues"
+  },
+  "homepage": "https://github.com/skrike/get-win-software/tree/master#readme",
   "dependencies": {
     "cli-progress": "^3.11.2",
     "regedit": "^5.1.1",
