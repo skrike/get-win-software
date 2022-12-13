@@ -1,7 +1,7 @@
 {
   "name": "get-win-software",
   "version": "0.1.0",
-  "description": "",
+  "description": "Obtaining information about installed programs of the Windows operating system.",
   "main": "index.js",
   "scripts": {
     "example": "node ./example/example1.js"
