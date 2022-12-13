@@ -1,5 +1,5 @@
 # get-win-software
-[Install](https://github.com/skrike/get-win-software/edit/master/README.md#install) | [Roadmap](https://github.com/skrike/get-win-software#roadmap)
+[Install](https://github.com/skrike/get-win-software#install) | [Roadmap](https://github.com/skrike/get-win-software#roadmap)
 
 Obtaining information about installed programs of the Windows operating system.
 
