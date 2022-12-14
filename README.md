@@ -12,6 +12,11 @@ Obtaining information about installed programs of the Windows operating system.
 npm i get-win-software
 ```
 
+# Functions
+| Name of Function  | Description |
+| ------------- | ------------- |
+| `GetWinSoftware.getAllInstalledSoftware()`  | Getting an array of objects with a description of installed programs. Each element contains *DisplayName*, *Publisher*, *DisplayVersion*. If there is *InstallLocation* data.  |
+
 # Roadmap
 - [ ] Add information about Google Chrome / Добавьте информацию о Google Chrome
 - [ ] Optimize script performance / Оптимизация производительности скрипта
