@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://github.com/skrike/get-win-software.git"
   },
-  "keywords": [],
+  "keywords": ["installed", "software", "windows", "uninstall", "apps"],
   "author": "Skrike",
   "license": "gpl-3.0",
   "bugs": {
