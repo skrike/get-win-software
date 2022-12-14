@@ -1,6 +1,6 @@
 {
   "name": "get-win-software",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Obtaining information about installed programs of the Windows operating system.",
   "main": "index.js",
   "scripts": {
