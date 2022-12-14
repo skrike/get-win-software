@@ -1,5 +1,5 @@
 # get-win-software
-[Install](https://github.com/skrike/get-win-software#install) | [Roadmap](https://github.com/skrike/get-win-software#roadmap) | [Example](https://github.com/skrike/get-win-software#example)
+[Install](https://github.com/skrike/get-win-software#install) | [Functions](https://github.com/skrike/get-win-software#functions) | [Roadmap](https://github.com/skrike/get-win-software#roadmap) | [Example](https://github.com/skrike/get-win-software#example)
 
 <sub>Если можете помочь с правильным переводом на английский язык, буду премного благодарен. Использовался Google Translate</sub>
 
