@@ -1,6 +1,8 @@
 # get-win-software
 [Install](https://github.com/skrike/get-win-software#install) | [Roadmap](https://github.com/skrike/get-win-software#roadmap) | [Example](https://github.com/skrike/get-win-software#example)
 
+<sub>Если можете помочь с правильным переводом на английский язык, буду премного благодарен. Использовался Google Translate</sub>
+
 Obtaining information about installed programs of the Windows operating system.
 
 Получение информации об установленных программах операционной системы Windows.
