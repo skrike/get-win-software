@@ -6,9 +6,9 @@ class GetWinSoftware {
     "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall";
 
   /**
-   *
+   * Getting an array of objects with a description of installed programs. Each element contains DisplayName, Publisher, DisplayVersion. If there is InstallLocation data.
    * @param {[]} otherKey [keyName, registryKeyName] Add any key in installed application.
-   * @returns Custom objects of installed applications
+   * @returns Objects of installed applications
    */
   static async getAIS(otherKey) {
     let progress = new cliProgress.SingleBar({
@@ -51,6 +51,11 @@ class GetWinSoftware {
     return out;
   }
 
+  /**
+   * Function for custom data output.
+   * @param {[]} otherKey [keyName, registryKeyName] Add any key in installed application. 
+   * @returns Custom objects of installed applications
+   */
   static async getAISCustom(otherKey) {
     let progress = new cliProgress.SingleBar({
       format: "Receive: [[36m{bar}[0m] {percentage}% ({value}/{total})",
