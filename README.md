@@ -1,5 +1,5 @@
 # get-win-software
-[Install](https://github.com/skrike/get-win-software#install) | [Functions](https://github.com/skrike/get-win-software#functions) | [Roadmap](https://github.com/skrike/get-win-software#roadmap) | [Example](https://github.com/skrike/get-win-software#example)
+[Install](https://github.com/skrike/get-win-software#install) | [Functions](https://github.com/skrike/get-win-software#functions) | [Roadmap](https://github.com/skrike/get-win-software#roadmap) | [Example](https://github.com/skrike/get-win-software#example) | [Updates](https://github.com/skrike/get-win-software#updates)
 
 <sub>Если можете помочь с правильным переводом на английский язык, буду премного благодарен. Использовался Google Translate</sub>
 
@@ -15,7 +15,8 @@ npm i get-win-software
 # Functions
 | Name of Function  | Description |
 | ------------- | ------------- |
-| `GetWinSoftware.getAllInstalledSoftware()`  | Getting an array of objects with a description of installed programs. Each element contains *DisplayName*, *Publisher*, *DisplayVersion*. If there is *InstallLocation* data.  |
+| `GetWinSoftware.getAIS()`  | Getting an array of objects with a description of installed programs. Each element contains *DisplayName*, *Publisher*, *DisplayVersion*. If there is *InstallLocation* data.  |
+| `GetWinSoftware.getAISCustom()`  | Function for custom data output.  |
 
 # Roadmap
 - [ ] Add information about Google Chrome / Добавьте информацию о Google Chrome
@@ -27,7 +28,7 @@ npm i get-win-software
 ```javascript
 const gws = require('get-win-software')
 
-gws.getAllInstalledSoftware([
+gws.getAIS([
     ['uninstall', 'UninstallString']
 ]).then(res => {
     console.log(res[0])
@@ -38,7 +39,12 @@ gws.getAllInstalledSoftware([
 ```javascript
 const gws = require('get-win-software')
 
-gws.getAllInstalledSoftware().then(res => {
+gws.getAIS().then(res => {
     console.log(res[0])
 })
 ```
+
+# Updates
+| Date  | Version | Decription  |
+| ------------- | ------------- | ------------- |
+| 12/15/2022  | 0.1.2  | Changed directory structure. Renamed function names (getAllInstalledSoftware() > getAIS()). Added getAISCustom() function for custom data output.  |
