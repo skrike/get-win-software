@@ -5,8 +5,6 @@
 
 Obtaining information about installed programs of the Windows operating system.
 
-Получение информации об установленных программах операционной системы Windows.
-
 # Install
 ```
 npm i get-win-software
@@ -17,11 +15,12 @@ npm i get-win-software
 | ------------- | ------------- |
 | `GetWinSoftware.getAIS()`  | Getting an array of objects with a description of installed programs. Each element contains *DisplayName*, *Publisher*, *DisplayVersion*. If there is *InstallLocation* data.  |
 | `GetWinSoftware.getAISCustom()`  | Function for custom data output.  |
+| `GetWinSoftware.saveToFile()`  | Function for save data to a file.  |
 
 # Roadmap
-- [ ] Add information about Google Chrome / Добавьте информацию о Google Chrome
-- [ ] Optimize script performance / Оптимизация производительности скрипта
-- [x] Push package to NPM / Разместить пакет в NPM
+- [ ] Add information about Google Chrome
+- [ ] Optimize script performance
+- [x] Push package to NPM
 
 # Example
 > **Example 1** - With custom properties
@@ -47,4 +46,5 @@ gws.getAIS().then(res => {
 # Updates
 | Date  | Version | Decription  |
 | ------------- | ------------- | ------------- |
+| 12/16/2022  | 0.1.3  | Added savetoFile() function to save data to a file.  |
 | 12/15/2022  | 0.1.2  | Changed directory structure. Renamed function names (getAllInstalledSoftware() > getAIS()). Added getAISCustom() function for custom data output.  |

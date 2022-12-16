@@ -1,5 +1,6 @@
 const regedit = require("regedit").promisified;
 const cliProgress = require("cli-progress");
+const fs = require('fs');
 
 class GetWinSoftware {
   static HKLMSoftUnintstall =
@@ -88,6 +89,20 @@ class GetWinSoftware {
     }
     progress.stop();
     return out;
+  }
+
+  /**
+   * Function for save data to a file.
+   * Saves `data` to a file
+   * @param {object} data Promise result
+   * @param {string} path Save path with file name (e.g. ./file.json). It is recommended to use the path module.
+   */
+  static saveToFile(data, path) {
+    try {
+      fs.writeFileSync(path, JSON.stringify(data))
+    } catch (err) {
+      return err
+    }
   }
 }
 
