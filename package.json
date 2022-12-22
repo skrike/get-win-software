@@ -1,6 +1,6 @@
 {
   "name": "get-win-software",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Obtaining information about installed programs of the Windows operating system.",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://github.com/skrike/get-win-software.git"
   },
-  "keywords": ["installed", "software", "windows", "uninstall", "apps"],
+  "keywords": ["installed", "software", "windows", "uninstall", "apps", "fetch"],
   "author": "Skrike",
   "license": "gpl-3.0",
   "bugs": {
